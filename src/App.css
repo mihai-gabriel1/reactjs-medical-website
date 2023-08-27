@@ -115,7 +115,9 @@ body {
 
 /* Find us section */
 .findus-img {
-  max-height: 390px;
+  max-height: 300px;
+  max-width: 600px;
+  width: 100%;
 }
 
 .findus-p {
