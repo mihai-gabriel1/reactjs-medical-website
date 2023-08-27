@@ -2,10 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="/logo.png" alt="Logo" className="logo" />
+          <img src="" alt="Logo" className="logo" />
         </a>
         <button
           className="navbar-toggler"

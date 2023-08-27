@@ -11,7 +11,7 @@ import WhereToFindUs from "./Components/WhereToFindUs";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="app-wrapper">
       <Topbar />
       <Navbar />
       <Header />

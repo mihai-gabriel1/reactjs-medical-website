@@ -3,6 +3,36 @@
   padding: 0;
 }
 
+body {
+  font-family: "Raleway", sans-serif !important;
+}
+
+/* Topbar */
+#topbar {
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #faf7f7;
+}
+
+.social-links {
+  gap: 10px;
+}
+
+.social-links a {
+  color: #437099 !important;
+}
+
+.social-links a:hover {
+  color: #0006b2 !important;
+}
+
+.contact-info {
+  gap: 10px;
+}
+
+/* Header section */
 .header-container {
   background-image: url("assets/img/mainheader-logo.webp");
   height: 100vh;
