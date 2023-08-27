@@ -7,7 +7,7 @@ const AboutUs = () => {
     <div className="container about-section">
       <div className="row align-items-center justify-content-center text-center">
         <div className="col-12">
-          <h2 className="about-h2">Cine suntem</h2>
+          <h2 className="about-h2 section-title">Cine suntem</h2>
           <p className="about-p">
             Conceptul modern aplicat în tratarea fiecărui caz asigura
             redobândirea sănătății pacientului și promovează un stil de viață

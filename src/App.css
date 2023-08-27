@@ -96,7 +96,7 @@ body {
 }
 
 /* about section */
-.about-h2 {
+.section-title {
   color: #1977cc;
   text-align: center;
   margin-top: 30px;
@@ -113,10 +113,29 @@ body {
   height: 100% !important;
 }
 
+/* Find us section */
+.findus-img {
+  max-height: 390px;
+}
+
+.findus-p {
+  font-size: 24px;
+}
+
+.findus-span {
+  color: #1977cc;
+}
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
   #topbar {
     display: none !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .findus-p {
+    font-size: 20px;
   }
 }
 
