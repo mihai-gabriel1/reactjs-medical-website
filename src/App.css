@@ -7,6 +7,12 @@ body {
   font-family: "Raleway", sans-serif !important;
 }
 
+.about-section,
+.find-us-section,
+.our-services {
+  margin-top: 50px;
+}
+
 /* Topbar */
 #topbar {
   padding: 5px;
@@ -128,6 +134,22 @@ body {
   color: #1977cc;
 }
 
+/* services section */
+
+.services-img {
+  max-width: 350px;
+  width: 100%;
+  max-height: 200px;
+  height: 100%;
+  box-shadow: rgb(140 140 140 / 29%) 1px 1px 1px 1px;
+  border-radius: 7px;
+}
+
+.service-title {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
   #topbar {
@@ -153,5 +175,15 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .services-img {
+    height: auto;
+  }
+
+  .service-title {
+    font-size: 16px;
   }
 }
