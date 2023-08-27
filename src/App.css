@@ -32,6 +32,28 @@ body {
   gap: 10px;
 }
 
+.contact-info a {
+  text-decoration: none;
+}
+
+/* Navbar section */
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.appointment-button {
+  background: #1977cc;
+  color: #fff !important;
+  border-radius: 50px;
+}
+
+.appointment-button:hover {
+  background: #1c006e;
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Header section */
 .header-container {
   background-image: url("assets/img/mainheader-logo.webp");
@@ -39,4 +61,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+  #topbar {
+    display: none !important;
+  }
 }

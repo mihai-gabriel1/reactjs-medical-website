@@ -11,7 +11,7 @@ import {
 const Topbar = () => {
   return (
     <div className="topbar">
-      <div id="topbar" className="d-flex align-items-center d-xs-none">
+      <div id="topbar" className="d-flex align-items-center">
         <div className="container d-flex justify-content-between">
           <div className="contact-info d-flex align-items-center">
             <FontAwesomeIcon icon={faEnvelope} style={{ color: "#3fbbc0" }} />

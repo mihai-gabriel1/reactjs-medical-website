@@ -4,8 +4,15 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          <img src="" alt="Logo" className="logo" />
+        <a
+          className="navbar-brand"
+          href="https://www.alicrantamedicalcenter.com/"
+        >
+          <img
+            src="https://i.ibb.co/6BzcyRK/logo.png"
+            alt="Logo"
+            className="header-logo"
+          />
         </a>
         <button
           className="navbar-toggler"
@@ -21,52 +28,57 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link 1
+              <a
+                className="nav-link"
+                href="https://www.alicrantamedicalcenter.com/"
+              >
+                Acasă
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 2
+                Despre
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 3
+                Servicii
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 4
+                Cariere
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 5
+                Echipa
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 6
+                Terapie Theta
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 7
+                Articole
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 8
+                Contact
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 9
+                FAQ
               </a>
             </li>
             <li className="nav-item">
-              <button className="btn btn-primary ml-2">Book Now</button>
+              <button className="btn btn-primary appointment-button">
+                FĂ O PROGRAMARE LA NOI
+              </button>
             </li>
           </ul>
         </div>
@@ -76,3 +88,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+// asd
