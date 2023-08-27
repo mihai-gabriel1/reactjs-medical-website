@@ -1,7 +1,7 @@
 import React from "react";
 
 const Testimonials = () => {
-  return <div className="testimonials-section">Testimonials</div>;
+  return <div>Testimonials</div>;
 };
 
 export default Testimonials;
