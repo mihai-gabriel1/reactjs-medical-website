@@ -203,6 +203,12 @@ body {
   text-decoration: none;
 }
 
+/* testimonials section */
+.testimonials-h2 {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
   #topbar {
