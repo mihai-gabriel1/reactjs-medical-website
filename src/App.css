@@ -244,6 +244,10 @@ body {
     display: none !important;
   }
 
+  .find-us-section {
+    margin-top: 0;
+  }
+
   .testimonials-row .col-xl-4 {
     align-items: center !important;
     justify-content: center !important;
@@ -286,6 +290,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (max-width: 420px) {
+  iframe {
+    width: 200px;
   }
 }
 
