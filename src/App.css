@@ -231,6 +231,13 @@ body {
   max-width: 420px;
 }
 
+/* footer */
+.footer {
+  background-color: #001148;
+  color: #fff;
+  margin-top: 50px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
   #topbar {
