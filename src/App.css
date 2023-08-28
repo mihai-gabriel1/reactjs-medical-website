@@ -204,15 +204,47 @@ body {
 }
 
 /* testimonials section */
-.testimonials-h2 {
+.testimonials-title {
   margin-bottom: 40px;
   margin-top: 30px;
+}
+
+.card-img {
+  max-width: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+}
+
+.person-name {
+  font-weight: 700 !important;
+  font-size: 20px;
+}
+
+.card {
+  text-align: center;
+  background-color: #b9d9f4;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 420px;
 }
 
 /* Media Queries */
 @media screen and (max-width: 991px) {
   #topbar {
     display: none !important;
+  }
+
+  .testimonials-row .col-xl-4 {
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+  }
+
+  .card {
+    margin-bottom: 20px;
   }
 
   .dr-description {

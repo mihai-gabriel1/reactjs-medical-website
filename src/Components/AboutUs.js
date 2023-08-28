@@ -4,7 +4,7 @@ import cabinet2Image from "../assets/img/cabinet2.webp"; // Import the image
 
 const AboutUs = () => {
   return (
-    <div className="container about-section">
+    <div className="container about-section" id="about">
       <div className="row align-items-center justify-content-center text-center">
         <div className="col-12">
           <h2 className="about-h2 section-title">Cine suntem</h2>
