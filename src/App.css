@@ -43,6 +43,11 @@ body {
 }
 
 /* Navbar section */
+.navbar {
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  margin-bottom: 1px;
+}
+
 .navbar-nav .nav-item {
   display: flex;
   align-items: center;
@@ -127,7 +132,7 @@ body {
 }
 
 .findus-p {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .findus-span {
