@@ -18,9 +18,9 @@ const WhereToFindUs = () => {
             <p className="findus-p">
               Pe langă centrul de la adresa{" "}
               <span className="findus-span">
-                Leonte Anastasievici Nr. 11 corp B
+                Leonte Anastasievici Nr. 11 corp B,
               </span>
-              , mai puteti beneficia de serviciile noastre in alte două locații.
+              mai puteti beneficia de serviciile noastre in alte două locații.
             </p>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
