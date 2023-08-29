@@ -66,6 +66,11 @@ body {
   text-decoration: none;
 }
 
+.bookings-about {
+  text-align: center;
+  font-size: 22px;
+}
+
 /* Header section */
 .header-container {
   background-image: url("assets/img/mainheader-logo.webp");
