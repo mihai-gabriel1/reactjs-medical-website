@@ -5,10 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
-        <a
-          className="navbar-brand"
-          href="https://www.alicrantamedicalcenter.com/"
-        >
+        <a className="navbar-brand" href="/">
           <img
             src="https://i.ibb.co/6BzcyRK/logo.png"
             alt="Logo"
@@ -29,12 +26,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="https://www.alicrantamedicalcenter.com/"
-              >
-                Acasă
-              </a>
+              <Link to="/">Acasa</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#about">

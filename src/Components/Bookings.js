@@ -8,7 +8,7 @@ const Bookings = () => {
         Mai jos puteti consulta intervalul de lucru al fiecarui medic, inainte
         de a va programa.
       </p>
-      <table className="table text-center">
+      <table className="table text-center container">
         <thead>
           <tr>
             <th scope="col">1</th>
@@ -38,6 +38,99 @@ const Bookings = () => {
         </tbody>
       </table>
       <h2 className="section-title">Suntem la doar un click distanta.</h2>
+      <div className="container">
+        <form className="row g-3">
+          <div className="col-md-6">
+            <label htmlFor="inputFirstName" className="form-label">
+              Nume:
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="inputFirstName"
+              defaultValue="Popa"
+            />
+          </div>
+          <div className="col-md-6">
+            <label htmlFor="inputLastName" className="form-label">
+              Prenume:
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="inputLastName"
+              defaultValue="Andrei"
+            />
+          </div>
+          <div className="col-md-6">
+            <label htmlFor="inputEmail" className="form-label">
+              Adresa de email:
+            </label>
+            <input
+              type="email"
+              className="form-control"
+              id="inputEmail"
+              defaultValue="abc@xyz.com"
+            />
+          </div>
+          <div className="col-md-6">
+            <label htmlFor="inputPhone" className="form-label">
+              Număr de telefon:
+            </label>
+            <input
+              type="tel"
+              className="form-control"
+              id="inputPhone"
+              defaultValue="+40712545676"
+            />
+          </div>
+          <div className="col-12">
+            <label htmlFor="inputDoctor" className="form-label">
+              Programare pentru:
+            </label>
+            <select id="inputDoctor" className="form-select">
+              <option defaultValue>Dr. Ali Cranta</option>
+              <option>Dr. Brânzei Speranta Maria</option>
+              <option>Dr. Drugă Oana-Eufrosina</option>
+              <option>Popescu Cornelia</option>
+            </select>
+          </div>
+          <div className="col-12">
+            <label htmlFor="inputDescription" className="form-label">
+              Descriere simptome:
+            </label>
+            <textarea
+              id="inputDescription"
+              className="form-control"
+              placeholder="Doresc o programare pentru un examen pneumologic."
+            ></textarea>
+          </div>
+          <div className="col-md-6">
+            <label htmlFor="inputDate" className="form-label">
+              Data programarii:
+            </label>
+            <input type="date" className="form-control" id="inputDate" />
+          </div>
+          <div className="col-md-6">
+            <label htmlFor="inputTime" className="form-label">
+              Interval orar:
+            </label>
+            <input type="time" className="form-control" id="inputTime" />
+          </div>
+          <div className="col-12">
+            <button type="submit" className="btn btn-primary">
+              Solicită o programare
+            </button>
+          </div>
+          <div className="col-12">
+            <p className="message-us">
+              <a href="https://formsubmit.co/el/wasita">
+                Ai nevoie de ajutor? Trimite-ne un mesaj.
+              </a>
+            </p>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };
