@@ -51,6 +51,7 @@ body {
 .navbar-nav .nav-item {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .appointment-button {
@@ -236,6 +237,23 @@ body {
   background-color: #001148;
   color: #fff;
   margin-top: 50px;
+}
+
+/* FAQ Section */
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+/* Careers */
+.careers-section {
+  padding: 1rem;
+  color: #00223d;
+}
+
+.careers-email {
+  color: #1977cc;
+  font-weight: bold;
 }
 
 /* Media Queries */

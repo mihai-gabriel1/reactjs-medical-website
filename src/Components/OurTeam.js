@@ -70,7 +70,7 @@ const OurTeam = () => {
           <p className="dr-title">CONSILIER THETA HEALING</p>
           <p className="dr-title">
             Descoperiți mai multe despre terapia Theta accesând următorul link -
-            <a href="Theta Healing">Theta Healing</a>
+            <a href="https://vindecareprinterapiatheta.ro/">Theta Healing</a>
           </p>
         </div>
       </div>
