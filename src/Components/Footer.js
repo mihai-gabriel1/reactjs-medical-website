@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="footer p-5">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 ">
+          <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 d-flex flex-column justify-content-center">
             <h4>Centrul Medical Ali Cranta</h4>
             <p>Strada Doctor Leonte Anastasievici nr 11 Sector 5, Bucuresti</p>
             <p className="footer-phone mb-0">

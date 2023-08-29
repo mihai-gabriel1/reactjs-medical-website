@@ -261,6 +261,36 @@ body {
   font-weight: bold;
 }
 
+/* Articles */
+/* Custom styles for the new section */
+.custom-section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  max-height: 580px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.custom-list {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+.custom-paragraph {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
   #topbar {
