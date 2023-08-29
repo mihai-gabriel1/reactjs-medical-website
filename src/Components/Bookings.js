@@ -39,7 +39,16 @@ const Bookings = () => {
       </table>
       <h2 className="section-title">Suntem la doar un click distanta.</h2>
       <div className="container">
-        <form className="row g-3">
+        <form
+          action="https://formsubmit.co/098bc1590acbb621df00c35760dfa9f3"
+          method="POST"
+          className="row g-3"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="https://alicrantamedicalcenter.com/thanks.html"
+          />
           <div className="col-md-6">
             <label htmlFor="inputFirstName" className="form-label">
               Nume:
