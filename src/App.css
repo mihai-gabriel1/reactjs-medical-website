@@ -303,6 +303,68 @@ body {
   margin-bottom: 5px;
 }
 
+/* our team carousel */
+/* Custom styling for the carousel */
+.custom-carousel {
+  margin-top: 20px;
+}
+
+/* Styling for the team member slides */
+.dr-member {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dr-pic {
+  max-width: 300px;
+  min-height: 370px;
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.dr-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.dr-title {
+  font-size: 18px;
+}
+
+.carousel .control-dots .dot {
+  transition: opacity 0.25s ease-in;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+  background: rgb(14, 35, 158) !important;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.control-arrow {
+  display: none;
+}
+
+.our-team-h2 {
+  margin-bottom: 20px;
+}
+
+.dr-paragraph {
+  margin-bottom: 0 !important;
+}
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
   #topbar {
@@ -333,6 +395,12 @@ body {
 @media screen and (max-width: 575px) {
   .findus-p {
     font-size: 20px;
+  }
+
+  .dr-member {
+    flex-direction: column;
+    min-height: 150px;
+    width: 100%;
   }
 }
 
