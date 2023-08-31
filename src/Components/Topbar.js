@@ -10,12 +10,8 @@ import {
 
 const Topbar = () => {
   return (
-    <div className="topbar" data-aos="fade-up">
-      <div
-        id="topbar"
-        className="d-flex align-items-center"
-        data-aos-duration="1000"
-      >
+    <div className="topbar">
+      <div id="topbar" className="d-flex align-items-center">
         <div
           className="container d-flex justify-content-between"
           data-aos="fade-up"
