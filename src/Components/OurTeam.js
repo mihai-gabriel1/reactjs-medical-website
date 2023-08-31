@@ -30,7 +30,7 @@ const TeamMember = ({ imageSrc, name, description }) => (
 const OurTeam = () => {
   return (
     <div
-      className="container our-team "
+      className="our-team our-team-wrapper container-fluid"
       data-aos="fade-up"
       data-aos-duration="1000"
     >

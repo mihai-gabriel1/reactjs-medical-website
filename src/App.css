@@ -1,16 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box !important;
 }
 
 body {
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to bottom, #d2f5fc2a, #00b4d81e);
 }
 
 .about-section,
 .find-us-section,
 .our-services {
-  margin-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 /* Topbar */
@@ -57,6 +60,7 @@ body {
 .navbar {
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
   margin-bottom: 1px;
+  background: #fff;
 }
 
 .navbar-nav .nav-item {
@@ -126,9 +130,13 @@ body {
 
 /* about section */
 .section-title {
-  color: #1977cc;
   text-align: center;
-  margin-top: 30px;
+  color: #1977cc;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 .about-p {
@@ -378,6 +386,10 @@ body {
   margin-bottom: 0 !important;
 }
 
+.custom-heading {
+  text-align: center;
+}
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
   #topbar {
@@ -405,6 +417,19 @@ body {
   }
 }
 
+@media screen and (max-width: 900px) {
+  .about-section,
+  .find-us-section,
+  .our-services {
+    padding-bottom: 0px;
+    padding-top: 20px;
+  }
+
+  p {
+    font-size: 18px !important;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .findus-p {
     font-size: 20px;
@@ -414,6 +439,10 @@ body {
     flex-direction: column;
     min-height: 150px;
     width: 100%;
+  }
+
+  p {
+    font-size: 16px !important;
   }
 }
 
@@ -442,6 +471,10 @@ body {
 @media (max-width: 420px) {
   iframe {
     width: 200px;
+  }
+
+  .findus-card {
+    padding: 0;
   }
 }
 

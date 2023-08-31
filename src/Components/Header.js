@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div
-      className="header-container "
+      className="header-container container-fluid"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
