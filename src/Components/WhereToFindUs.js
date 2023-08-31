@@ -3,7 +3,11 @@ import React from "react";
 
 const WhereToFindUs = () => {
   return (
-    <div className="find-us-section container">
+    <div
+      className="find-us-section container"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <h2 className="findus-h2">
         <div className="row align-items-center justify-content-center text-center">
           <div className="col-12">

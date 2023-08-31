@@ -2,8 +2,13 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <div className="faq-section">
-      <div className="accordion container mt-5" id="accordionExample">
+    <div className="faq-section" data-aos="fade-up" data-aos-duration="1000">
+      <div
+        className="accordion container mt-5"
+        id="accordionExample"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <h1 className="faq-h1 mb-4">Intrebări frecvente</h1>
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
@@ -42,7 +47,11 @@ const Faq = () => {
             </div>
           </div>
         </div>
-        <div className="accordion-item">
+        <div
+          className="accordion-item"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <h2 className="accordion-header" id="headingTwo">
             <button
               className="accordion-button collapsed"

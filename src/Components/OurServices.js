@@ -8,11 +8,23 @@ import React from "react";
 
 const OurServices = () => {
   return (
-    <div className="container our-services">
-      <h2 className="our-services-h2 section-title">
+    <div
+      className="container our-services"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <h2
+        className="our-services-h2 section-title"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         Serviciile oferite de catre noi
       </h2>
-      <div className="row text-center">
+      <div
+        className="row text-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
           <p className="service-title">Consult medical pneumologic</p>
           <img
@@ -30,7 +42,11 @@ const OurServices = () => {
           />
         </div>
       </div>
-      <div className="row text-center">
+      <div
+        className="row text-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
           <p className="service-title">Pulsoximetrie</p>
           <img
@@ -48,7 +64,11 @@ const OurServices = () => {
           />
         </div>
       </div>
-      <div className="row text-center">
+      <div
+        className="row text-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
           <p className="service-title">Spirometrie</p>
           <img

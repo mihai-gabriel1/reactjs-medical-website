@@ -2,7 +2,11 @@ import React from "react";
 
 const Bookings = () => {
   return (
-    <div className="bookings-section">
+    <div
+      className="bookings-section"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <h2 className="section-title">Formular de programare online</h2>
       <p className="bookings-about">
         Mai jos puteti consulta intervalul de lucru al fiecarui medic, inainte

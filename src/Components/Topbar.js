@@ -10,9 +10,17 @@ import {
 
 const Topbar = () => {
   return (
-    <div className="topbar">
-      <div id="topbar" className="d-flex align-items-center">
-        <div className="container d-flex justify-content-between">
+    <div className="topbar" data-aos="fade-up">
+      <div
+        id="topbar"
+        className="d-flex align-items-center"
+        data-aos-duration="1000"
+      >
+        <div
+          className="container d-flex justify-content-between"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="contact-info d-flex align-items-center">
             <FontAwesomeIcon icon={faEnvelope} style={{ color: "#3fbbc0" }} />
             <a href="pneumotherapy@yahoo.com">pneumotherapy@yahoo.com</a>

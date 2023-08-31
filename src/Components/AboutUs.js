@@ -5,7 +5,11 @@ import cabinet2Image from "../assets/img/cabinet2.webp"; // Import the image
 const AboutUs = () => {
   return (
     <div className="container about-section" id="about">
-      <div className="row align-items-center justify-content-center text-center">
+      <div
+        className="row align-items-center justify-content-center text-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div className="col-12">
           <h2 className="about-h2 section-title">Cine suntem</h2>
           <p className="about-p">

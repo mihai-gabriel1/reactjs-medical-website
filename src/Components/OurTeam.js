@@ -29,8 +29,18 @@ const TeamMember = ({ imageSrc, name, description }) => (
 
 const OurTeam = () => {
   return (
-    <div className="container our-team">
-      <h2 className="our-team-h2 section-title">Echipa noastră</h2>
+    <div
+      className="container our-team "
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="our-team-h2 section-title"
+      >
+        Echipa noastră
+      </h2>
       <Carousel
         showThumbs={false}
         infiniteLoop={true}
