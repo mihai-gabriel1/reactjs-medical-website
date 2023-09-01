@@ -69,6 +69,7 @@ const OurTeam = () => {
         />
         <TeamMember
           imageSrc={drdruga}
+          className="druga"
           name="Dr. Drugă Oana-Eufrosina"
           description={["MEDIC SPECIALIST", "GERIATRIE și GERONTOLOGIE"]}
         />
