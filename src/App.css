@@ -22,7 +22,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #faf7f7;
 }
 
 .social-links {
@@ -58,7 +57,7 @@ body {
 }
 
 .navbar {
-  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  box-shadow: 0px 2px 15px rgb(84 174 255 / 50%);
   margin-bottom: 1px;
   background: #fff;
 }
@@ -161,7 +160,6 @@ p {
   font-size: 22px;
   order: 1px solid lightgray;
   padding: 5px;
-  box-shadow: 0px 1px 1px 1px;
   min-height: 170px;
   text-align: center;
   display: flex;
@@ -178,8 +176,14 @@ p {
   background-color: #fff;
   padding: 20px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 1px 1px;
   border-radius: 10px;
   margin-bottom: 20px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -395,6 +399,10 @@ p {
 
 /* Media Queries */
 @media screen and (max-width: 991px) {
+  .caca {
+    background-image: linear-gradient(to bottom, #d2f5fc2a, #00b4d81e);
+  }
+
   #topbar {
     display: none !important;
   }
@@ -433,9 +441,19 @@ p {
   }
 }
 
+@media screen and (max-width: 765px) {
+  .findus-card {
+    height: 100%;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .findus-p {
     font-size: 20px;
+  }
+
+  .findus-card {
+    height: 200px;
   }
 
   .dr-member {
