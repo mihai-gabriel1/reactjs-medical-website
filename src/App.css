@@ -12,7 +12,6 @@ body {
 .about-section,
 .find-us-section,
 .our-services {
-  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -56,9 +55,11 @@ body {
   text-decoration: underline;
 }
 
+.topbar {
+  background-color: hsla(204, 100%, 50%, 0.133);
+}
+
 .navbar {
-  box-shadow: 0px 2px 15px rgb(84 174 255 / 50%);
-  margin-bottom: 1px;
   background: #fff;
 }
 
@@ -173,11 +174,11 @@ p {
 }
 
 .findus-card {
-  background-color: #fff;
+  background-color: #b9d9f4;
   padding: 20px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 1px 1px 1px;
-  border-radius: 10px;
+  border-radius: 20px 100px;
   margin-bottom: 20px;
   height: 300px;
   text-align: center;
@@ -185,6 +186,10 @@ p {
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease-in-out;
+}
+
+.right-card {
+  border-radius: 100px 20px;
 }
 
 .findus-card:hover {
@@ -334,6 +339,10 @@ p {
   margin-top: 20px;
 }
 
+.carousel-status {
+  display: none;
+}
+
 /* Styling for the team member slides */
 .dr-member {
   display: flex;
@@ -468,6 +477,10 @@ p {
 }
 
 @media screen and (max-width: 550px) {
+  .findus-card {
+    border-radius: 40px 20px;
+  }
+
   .header-h1-btn-wrapper {
     padding: 0;
   }
@@ -541,6 +554,7 @@ p {
   width: 100%;
   max-height: 540px;
   height: 100%;
+  margin-bottom: 0;
 }
 
 .our-team a {
@@ -566,4 +580,11 @@ p {
 .dr-pic {
   max-width: 300px;
   max-height: 300px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.aos-init.aos-animate,
+.topbar {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }

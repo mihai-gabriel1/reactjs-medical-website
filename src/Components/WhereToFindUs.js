@@ -32,7 +32,7 @@ const WhereToFindUs = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="findus-card">
+              <div className="findus-card right-card">
                 <p className="findus-p">
                   Una dintre acestea poate fi găsită la adresa Jilava,{" "}
                   <span className="findus-span">
