@@ -11,6 +11,7 @@ const Articles = () => {
       <div className="article-img container d-flex align-items-center justify-content-center">
         <img src={tbcLogo} alt="" className="img-fluid rounded text-center" />
       </div>
+      <h1 className="section-title mt-2 mb-2">Tuberculoza (TBC)</h1>
       <div className="container">
         <div className="row">
           <div className="col">
