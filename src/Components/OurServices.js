@@ -10,6 +10,7 @@ const OurServices = () => {
   return (
     <div
       className="container-fluid services-wrapper"
+      id="services-wrapper"
       data-aos="fade-up"
       data-aos-duration="1000"
     >

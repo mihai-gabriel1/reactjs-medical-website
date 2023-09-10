@@ -8,7 +8,7 @@ import drdruga from "../assets/img/drdruga.jpeg";
 import popescu from "../assets/img/popescu.webp";
 
 const TeamMember = ({ imageSrc, name, description }) => (
-  <div className="dr-member">
+  <div className="dr-member" id="dr-member">
     <img
       className="img-fluid rounded dr-pic"
       src={imageSrc}
@@ -31,6 +31,7 @@ const OurTeam = () => {
   return (
     <div
       className="our-team our-team-wrapper container-fluid"
+      id="our-team"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
