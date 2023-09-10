@@ -406,8 +406,84 @@ p {
   text-align: center;
 }
 
+/*  */
+.our-team {
+  margin-top: 50px;
+}
+
+.our-team-h2 {
+  margin-bottom: 40px;
+}
+
+.dr-pic {
+  box-shadow: rgb(167, 148, 148) 1px 1px 1px 1px;
+}
+
+.dr-name {
+  font-size: 28px;
+}
+
+.dr-title {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.dr-col {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.dr-pic {
+  max-width: 400px;
+  width: 100%;
+  max-height: 540px;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.our-team a {
+  text-decoration: none;
+}
+
+.dr-member {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.dr-paragraph {
+  margin-bottom: 0 !important;
+}
+
+.custom-heading {
+  text-align: center;
+}
+
+.dr-pic {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.aos-init.aos-animate,
+.topbar {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.navbar-nav .nav-item a {
+  padding: 8px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
+  .navbar-nav .nav-item a {
+    padding: 2px;
+  }
+
   .caca {
     background-image: linear-gradient(to bottom, #d2f5fc2a, #00b4d81e);
   }
@@ -520,71 +596,4 @@ p {
   .service-title {
     font-size: 16px;
   }
-}
-
-.our-team {
-  margin-top: 50px;
-}
-
-.our-team-h2 {
-  margin-bottom: 40px;
-}
-
-.dr-pic {
-  box-shadow: rgb(167, 148, 148) 1px 1px 1px 1px;
-}
-
-.dr-name {
-  font-size: 28px;
-}
-
-.dr-title {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-.dr-col {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-.dr-pic {
-  max-width: 400px;
-  width: 100%;
-  max-height: 540px;
-  height: 100%;
-  margin-bottom: 0;
-}
-
-.our-team a {
-  text-decoration: none;
-}
-
-.dr-member {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: #fff;
-}
-
-.dr-paragraph {
-  margin-bottom: 0 !important;
-}
-
-.custom-heading {
-  text-align: center;
-}
-
-.dr-pic {
-  max-width: 300px;
-  max-height: 300px;
-}
-
-nav.navbar.navbar-expand-lg.navbar-light.aos-init.aos-animate,
-.topbar {
-  position: sticky;
-  top: 0px;
-  z-index: 1;
 }
