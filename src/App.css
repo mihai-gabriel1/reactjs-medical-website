@@ -23,6 +23,14 @@ body {
   text-align: center;
 }
 
+.contact-info a {
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
 .social-links {
   gap: 10px;
 }
@@ -284,6 +292,16 @@ p {
   background-color: #001148;
   color: #fff;
   margin-top: 50px;
+}
+
+.footer .footer-phone {
+  color: #fff;
+  display: inline !important;
+}
+
+.footer .footer-phone:hover {
+  text-decoration: underline !important;
+  color: #1977cc !important;
 }
 
 /* FAQ Section */

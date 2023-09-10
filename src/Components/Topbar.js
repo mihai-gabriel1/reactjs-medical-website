@@ -19,11 +19,11 @@ const Topbar = () => {
         >
           <div className="contact-info d-flex align-items-center">
             <FontAwesomeIcon icon={faEnvelope} style={{ color: "#3fbbc0" }} />
-            <a href="pneumotherapy@yahoo.com">pneumotherapy@yahoo.com</a>
-            <FontAwesomeIcon icon={faPhone} style={{ color: "#3fbbc0" }} /> 0725
-            596 895
-            <FontAwesomeIcon icon={faPhone} style={{ color: "#3fbbc0" }} /> 0724
-            284 956
+            <a href="mailto:pneumotherapy@yahoo.com">pneumotherapy@yahoo.com</a>
+            <FontAwesomeIcon icon={faPhone} style={{ color: "#3fbbc0" }} />{" "}
+            <a href="tel:0725596895">0725 596 895</a>
+            <FontAwesomeIcon icon={faPhone} style={{ color: "#3fbbc0" }} />{" "}
+            <a href="tel:0724284956">0724 284 956</a>
           </div>
 
           <div className="d-lg-flex social-links align-items-center">

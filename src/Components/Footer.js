@@ -22,7 +22,13 @@ const Footer = () => {
                 icon={faPhone}
                 style={{ color: "#3fbbc0" }}
               />{" "}
-              0725 596 895
+              <a
+                className="footer-phone"
+                href="tel:0725596895"
+                style={{ textDecoration: "none" }}
+              >
+                0725 596 895
+              </a>
             </p>
             <p className="footer-phone mb-0">
               {" "}
@@ -30,11 +36,19 @@ const Footer = () => {
                 icon={faPhone}
                 style={{ color: "#3fbbc0" }}
               />{" "}
-              0724 284 956
+              <a
+                className="footer-phone"
+                href="tel:0724284956"
+                style={{ textDecoration: "none" }}
+              >
+                0724 284 956
+              </a>
             </p>
             <p className="footer-mail">
               <FontAwesomeIcon icon={faEnvelope} style={{ color: "#3fbbc0" }} />{" "}
-              <a href="pneumotherapy@yahoo.com">pneumotherapy@yahoo.com</a>
+              <a href="mailto:pneumotherapy@yahoo.com">
+                pneumotherapy@yahoo.com
+              </a>
             </p>
             <p className="schedule-title mb-0">Program:</p>
             <p className="schedule-hours">Luni-Vineri: 08:00 – 21:00</p>
@@ -63,13 +77,13 @@ const Footer = () => {
               ></iframe>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-12 col-md-4 col-sm-12 d-flex align-items-center justify-content-center">
+          <div className="col-xl-4 col-lg-12 col-md-4 col-sm-12 d-flex align-items-center justify-content-center">
             <div
               id="custom_html-2"
-              class="widget_text widget footer-widget widget_custom_html"
+              className="widget_text widget footer-widget widget_custom_html"
             >
               <p className="locatia-noastra text-center">Locatia Noastra</p>
-              <div class="textwidget custom-html-widget">
+              <div className="textwidget custom-html-widget">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.866047857008!2d26.065376851304006!3d44.43590987899974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201801952d2f7%3A0x4959a25917499106!2sAli%20Cranta%20Medical%20Center!5e0!3m2!1sen!2sro!4v1669669163274!5m2!1sen!2sro"
                   width="300"
