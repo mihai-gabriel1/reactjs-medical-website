@@ -1,6 +1,9 @@
 import React from "react";
 
 const Bookings = () => {
+  // Get today's date in the format yyyy-mm-dd
+  const today = new Date().toISOString().split("T")[0];
+
   return (
     <div
       className="bookings-section"
@@ -9,8 +12,8 @@ const Bookings = () => {
     >
       <h2 className="section-title">Formular de programare online</h2>
       <p className="bookings-about">
-        Mai jos puteti consulta intervalul de lucru al fiecarui medic, inainte
-        de a va programa.
+        Mai jos puteți consulta intervalul de lucru al fiecărui medic, înainte
+        de a vă programa.
       </p>
       <table className="table text-center container">
         <thead>
@@ -41,7 +44,7 @@ const Bookings = () => {
           </tr>
         </tbody>
       </table>
-      <h2 className="section-title">Suntem la doar un click distanta.</h2>
+      <h2 className="section-title">Suntem la doar un click distanță.</h2>
       <div className="container">
         <form
           action="https://formsubmit.co/098bc1590acbb621df00c35760dfa9f3"
@@ -122,14 +125,31 @@ const Bookings = () => {
             <label htmlFor="inputDate" className="form-label">
               Data programarii:
             </label>
-            <input type="date" className="form-control" id="inputDate" />
+            <input
+              type="date"
+              className="form-control"
+              id="inputDate"
+              min={today} // Set the minimum date to today
+            />
           </div>
           <div className="col-md-6">
             <label htmlFor="inputTime" className="form-label">
               Interval orar:
             </label>
-            <input type="time" className="form-control" id="inputTime" />
+            <input
+              type="time"
+              className="form-control"
+              id="inputTime"
+              onChange={(e) => {
+                const selectedTime = e.target.value;
+                if (selectedTime < "08:00" || selectedTime > "20:00") {
+                  // Reset the input or show an error message
+                  e.target.value = "08:00"; // Set it to your desired default time
+                }
+              }}
+            />
           </div>
+
           <div className="col-12">
             <button type="submit" className="btn btn-primary">
               Solicită o programare
