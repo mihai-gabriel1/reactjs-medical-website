@@ -51,7 +51,10 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="https://vindecareprinterapiatheta.ro/"
+              >
                 Terapie Theta
               </a>
             </li>
@@ -59,7 +62,7 @@ const Navbar = () => {
               <Link to="/articles">Articole</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>
@@ -81,4 +84,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-// asd

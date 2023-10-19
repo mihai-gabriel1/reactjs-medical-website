@@ -77,12 +77,13 @@ const Footer = () => {
               id="custom_html-2"
               className="widget_text widget footer-widget widget_custom_html"
             >
-              <p className="locatia-noastra text-center">Locatia Noastra</p>
+              <p className="text-center">Locatia Noastră</p>
               <div className="textwidget custom-html-widget">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.866047857008!2d26.065376851304006!3d44.43590987899974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201801952d2f7%3A0x4959a25917499106!2sAli%20Cranta%20Medical%20Center!5e0!3m2!1sen!2sro!4v1669669163274!5m2!1sen!2sro"
                   width="300"
                   height="250"
+                  title="Location of Ali Cranta Medical Center on Google Maps"
                   style={{
                     border: "none",
                   }}

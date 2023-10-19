@@ -9,11 +9,7 @@ import popescu from "../assets/img/popescu.webp";
 
 const TeamMember = ({ imageSrc, name, description }) => (
   <div className="dr-member" id="dr-member">
-    <img
-      className="img-fluid rounded dr-pic"
-      src={imageSrc}
-      alt={`A picture with ${name}`}
-    />
+    <img className="img-fluid rounded dr-pic" src={imageSrc} alt="Our doctor" />
     <div className="dr-description">
       <p className="dr-name">{name}</p>
       <div className="dr-paragraphs">
