@@ -27,18 +27,33 @@ const Topbar = () => {
           </div>
 
           <div className="d-lg-flex social-links align-items-center">
-            <button className="facebook">
+            <a
+              href="https://www.facebook.com/drAliCrantaPneumolog/"
+              className="facebook"
+            >
               <FontAwesomeIcon icon={faFacebook} />
-            </button>
-            <button className="facebook">
+            </a>
+
+            <a
+              href="https://www.instagram.com/your-instagram-profile/"
+              className="facebook"
+            >
               <FontAwesomeIcon icon={faInstagram} />
-            </button>
-            <button className="facebook">
+            </a>
+
+            <a
+              href="https://www.linkedin.com/your-linkedin-profile"
+              className="facebook"
+            >
               <FontAwesomeIcon icon={faLinkedin} />
-            </button>
-            <button className="facebook">
+            </a>
+
+            <a
+              href="https://www.twitter.com/your-twitter-profile"
+              className="facebook"
+            >
               <FontAwesomeIcon icon={faTwitter} />
-            </button>
+            </a>
           </div>
         </div>
       </div>
