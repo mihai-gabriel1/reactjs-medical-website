@@ -95,6 +95,14 @@ body {
   font-size: 22px;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler:hover {
+  border: 3px solid #86c7ff;
+}
+
 /* Header section */
 .header-container {
   background-image: url("assets/img/mainheader-logo.webp");
