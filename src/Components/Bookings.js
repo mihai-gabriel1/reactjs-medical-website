@@ -59,6 +59,7 @@ const Bookings = () => {
               type="text"
               className="form-control"
               id="inputFirstName"
+              name="Prenume:" // Added the name attribute
               defaultValue="Popa"
             />
           </div>
@@ -70,6 +71,7 @@ const Bookings = () => {
               type="text"
               className="form-control"
               id="inputLastName"
+              name="Nume:" // Added the name attribute
               defaultValue="Andrei"
             />
           </div>
@@ -81,6 +83,7 @@ const Bookings = () => {
               type="email"
               className="form-control"
               id="inputEmail"
+              name="Adresa de e-mail:" // Added the name attribute
               defaultValue="abc@xyz.com"
             />
           </div>
@@ -92,6 +95,7 @@ const Bookings = () => {
               type="tel"
               className="form-control"
               id="inputPhone"
+              name="Numar de telefon:" // Added the name attribute
               defaultValue="+40712545676"
             />
           </div>
@@ -99,7 +103,13 @@ const Bookings = () => {
             <label htmlFor="inputDoctor" className="form-label">
               Programare pentru:
             </label>
-            <select id="inputDoctor" className="form-select">
+            <select
+              id="inputDoctor"
+              className="form-select"
+              name="Programare pentru:"
+            >
+              {" "}
+              {/* Added the name attribute */}
               <option defaultValue>Dr. Ali Cranta</option>
               <option>Dr. Brânzei Speranta Maria</option>
               <option>Dr. Drugă Oana-Eufrosina</option>
@@ -113,6 +123,7 @@ const Bookings = () => {
             <textarea
               id="inputDescription"
               className="form-control"
+              name="Descriere problema:" // Added the name attribute
               placeholder="Doresc o programare pentru un examen pneumologic."
             ></textarea>
           </div>
@@ -124,6 +135,7 @@ const Bookings = () => {
               type="date"
               className="form-control"
               id="inputDate"
+              name="Data:" // Added the name attribute
               min={today} // Set the minimum date to today
             />
           </div>
@@ -135,11 +147,11 @@ const Bookings = () => {
               type="time"
               className="form-control"
               id="inputTime"
+              name="Ora:" // Added the name attribute
               onChange={(e) => {
                 const selectedTime = e.target.value;
                 if (selectedTime < "08:00" || selectedTime > "20:00") {
-                  // Reset the input or show an error message
-                  e.target.value = "08:00"; // Set it to your desired default time
+                  e.target.value = "08:00";
                 }
               }}
             />
