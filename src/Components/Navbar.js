@@ -3,11 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav
-      className="navbar navbar-expand-lg navbar-light"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
         <a className="navbar-brand" href="/">
           <img

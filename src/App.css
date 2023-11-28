@@ -493,13 +493,6 @@ p {
   max-height: 300px;
 }
 
-nav.navbar.navbar-expand-lg.navbar-light.aos-init.aos-animate,
-.topbar {
-  position: sticky;
-  top: 0px;
-  z-index: 1;
-}
-
 .navbar-nav .nav-item a {
   padding: 8px;
 }

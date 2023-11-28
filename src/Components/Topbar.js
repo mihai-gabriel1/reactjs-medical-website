@@ -12,11 +12,7 @@ const Topbar = () => {
   return (
     <div className="topbar">
       <div id="topbar" className="d-flex align-items-center">
-        <div
-          className="container d-flex justify-content-between"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
+        <div className="container d-flex justify-content-between">
           <div className="contact-info d-flex align-items-center">
             <FontAwesomeIcon icon={faEnvelope} style={{ color: "#3fbbc0" }} />
             <a href="mailto:pneumotherapy@yahoo.com">pneumotherapy@yahoo.com</a>
