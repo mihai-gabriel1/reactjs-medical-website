@@ -228,6 +228,24 @@ p {
   font-size: 20px;
 }
 
+.more-services-list {
+  text-align: center;
+  color: #1977cc;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#services-wrapper .services-link a {
+  text-decoration: none;
+  color: #000;
+}
+
+#services-wrapper .services-link a:hover {
+  cursor: pointer;
+  color: #5258ff;
+}
+
 /* our team section */
 .our-team {
   margin-top: 50px;
@@ -496,6 +514,33 @@ p {
 .navbar-nav .nav-item a {
   padding: 8px;
 }
+
+/* Prices section starts */
+.prices-section-wrapper p {
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 300;
+  color: #1f6698;
+}
+
+.prices-section-wrapper p:last-of-type {
+  margin-top: 10px;
+}
+
+.price-section-logo {
+  max-width: 800px;
+  width: 100%;
+  max-height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.price-logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Prices section ends */
 
 /* Media Queries */
 @media screen and (max-width: 991px) {
