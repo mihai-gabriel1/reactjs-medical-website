@@ -29,34 +29,66 @@ const Prices = () => {
       </p>
       <div className="services-prices-info row">
         <div className="col price-service">
-          <img className="price-service-img" src={apnee} alt="" />
-          <p className="prices-service-title">Consult apnee</p>
-          <p className="price-service-amount">Pret - 150 RON</p>
+          <img className="price-service-img" src={apnee} alt="consult apnee" />
+          <div className="price-service-amount-wrapper">
+            <p className="prices-service-title">Consult apnee</p>
+            <p className="price-service-amount">Pret - 150 RON</p>
+          </div>
         </div>
         <div className="col price-service">
-          <img className="price-service-img" src={consult} alt="" />
-          <p className="prices-service-title">Consult pneumologic</p>
-          <p className="price-service-amount">Pret - 150 RON</p>
+          <img
+            className="price-service-img"
+            src={consult}
+            alt="consult pneumologic"
+          />
+          <div className="price-service-amount-wrapper">
+            <p className="prices-service-title">Consult pneumologic</p>
+            <p className="price-service-amount">Pret - 150 RON</p>
+          </div>
         </div>
         <div className="col price-service">
-          <img className="price-service-img" src={auto} alt="" />
-          <p className="prices-service-title">Consult pneumologic</p>
-          <p className="price-service-amount">Pret - 150 RON</p>
+          <img
+            className="price-service-img"
+            src={auto}
+            alt="logo examen fisa auto"
+          />
+          <div className="price-service-amount-wrapper">
+            <p className="prices-service-title">Examen Fişǎ Auto</p>
+            <p className="price-service-amount">Pret - 150 RON</p>
+          </div>
         </div>
         <div className="col price-service">
-          <img className="price-service-img" src={pulsoximetrie} alt="" />
-          <p className="prices-service-title">Consult pneumologic</p>
-          <p className="price-service-amount">Pret - 150 RON</p>
+          <img
+            className="price-service-img"
+            src={pulsoximetrie}
+            alt="logo examen pulsoximetrie"
+          />
+          <div className="price-service-amount-wrapper">
+            <p className="prices-service-title">Examen de Pulsoximetrie</p>
+            <p className="price-service-amount">Pret - 150 RON</p>
+          </div>
         </div>
         <div className="col price-service">
-          <img className="price-service-img" src={spirometrie} alt="" />
-          <p className="prices-service-title">Consult pneumologic</p>
-          <p className="price-service-amount">Pret - 150 RON</p>
+          <img
+            className="price-service-img"
+            src={spirometrie}
+            alt="logo examen spirometrie"
+          />
+          <div className="price-service-amount-wrapper">
+            <p className="prices-service-title">Examen de Spirometrie</p>
+            <p className="price-service-amount">Pret - 150 RON</p>
+          </div>
         </div>
         <div className="col price-service">
-          <img className="price-service-img" src={theta} alt="" />
-          <p className="prices-service-title">Consult pneumologic</p>
-          <p className="price-service-amount">Pret - 150 RON</p>
+          <img
+            className="price-service-img"
+            src={theta}
+            alt="terapii complementare"
+          />
+          <div className="price-service-amount-wrapper">
+            <p className="prices-service-title">Terapii Complementare</p>
+            <p className="price-service-amount">Pret - 150 RON</p>
+          </div>
         </div>
       </div>
     </div>
