@@ -540,6 +540,14 @@ p {
   justify-content: center;
 }
 
+.price-service-img {
+  max-width: 100px;
+  border-radius: 20%;
+}
+
+.price-service p {
+  margin-bottom: 0 !important;
+}
 /* Prices section ends */
 
 /* Media Queries */
