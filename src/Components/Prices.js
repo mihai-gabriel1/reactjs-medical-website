@@ -76,7 +76,7 @@ const Prices = () => {
           />
           <div className="price-service-amount-wrapper">
             <p className="prices-service-title">Examen de Spirometrie</p>
-            <p className="price-service-amount">Pret - 150 RON</p>
+            <p className="price-service-amount">Pret - 70 RON</p>
           </div>
         </div>
         <div className="col price-service">
