@@ -5,6 +5,7 @@ import apnee from "../assets/img/apnee.webp";
 import spirometrie from "../assets/img/spirometrie.jpeg";
 import masaj from "../assets/img/masaj.jpeg";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const OurServices = () => {
   return (
@@ -94,7 +95,7 @@ const OurServices = () => {
           <p className="more-services-list mb-0">
             Click{" "}
             <span className="services-link">
-              <a href="/prices">aici</a>
+              <Link to="/prices">aici</Link> {/* Replace <a> with <Link> */}
             </span>{" "}
             pentru o listǎ completǎ cu serviciile cât si cu prețurile oferite de
             catre noi.
