@@ -9,7 +9,7 @@ const Header = () => {
     >
       <div className="header-h1-btn-wrapper">
         <h1 className="header-h1">
-          Bun venit la AliCranta <br /> Medical Center
+          Bun venit la Ali Cranta <br /> Medical Center
         </h1>
         <a href="#about" class="btn-get-started">
           Află mai multe
