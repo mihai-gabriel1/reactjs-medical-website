@@ -71,7 +71,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link to="/bookings">
                 <button className="btn btn-primary appointment-button">
-                  FĂ O PROGRAMARE LA NOI
+                  Programare online
                 </button>
               </Link>
             </li>
