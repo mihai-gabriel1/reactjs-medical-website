@@ -101,9 +101,9 @@ const Footer = () => {
               &copy; 2023 AliCranta Medical Center. Toate drepturile rezervate.
             </p>
             <p>
-              Website created and maintained by Mihai Gabriel -{" "}
+              Mihai Gabriel -{" "}
               <a href="https://www.linkedin.com/in/gabriel-mihai-924042234/">
-                webdesign / administrare web
+                soluții complete webdesign, site-web / administrare web.
               </a>
             </p>
           </div>

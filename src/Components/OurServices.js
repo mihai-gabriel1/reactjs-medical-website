@@ -91,6 +91,14 @@ const OurServices = () => {
               alt="driving's license medical exam"
             />
           </div>
+          <p className="more-services-list mb-0">
+            Click{" "}
+            <span className="services-link">
+              <a href="/prices">aici</a>
+            </span>{" "}
+            pentru o listǎ completǎ cu serviciile cât si cu prețurile oferite de
+            catre noi.
+          </p>
         </div>
       </div>
     </div>
