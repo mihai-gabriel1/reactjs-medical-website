@@ -3,7 +3,6 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import drali from "../assets/img/drali.webp";
-import branzei from "../assets/img/branzei.webp";
 import drdruga from "../assets/img/drdruga.jpeg";
 import popescu from "../assets/img/popescu.webp";
 
