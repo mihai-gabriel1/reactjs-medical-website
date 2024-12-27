@@ -10,6 +10,13 @@ const Bookings = () => {
       data-aos="fade-up"
       data-aos-duration="1000"
     >
+      <h2 className="announcement-title">Anunt important!</h2>
+      <p className="bookings-about">
+        In perioada 27.12.2024 - 08.01.2025 suntem in concediu de odihnă! Puteti solicita o programare după datele mentionate mai sus.
+      </p>
+      <p className="bookings-about">
+         Va uram sarbatori binecuvantate, si numai bucurii.
+      </p>
       <h2 className="section-title">Formular de programare online</h2>
       <p className="bookings-about">
         Mai jos puteți consulta intervalul de lucru al fiecărui medic, înainte
@@ -29,13 +36,6 @@ const Bookings = () => {
         <tbody>
           <tr>
             <th scope="row">2</th>
-            <td>Dr. Brânzei Speranța Maria</td>
-            <td>Luni, Marți, Joi, și Vineri, interval orar 09:30 - 14:00</td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th scope="row">3</th>
             <td>Dr. Drugă Oana-Eufrosina</td>
             <td>
               Luni - 14:00-20:00 | Marți - 08:00-16:30 | Miercuri - 14:00-20:00
@@ -111,7 +111,6 @@ const Bookings = () => {
               {" "}
               {/* Added the name attribute */}
               <option defaultValue>Dr. Ali Cranta</option>
-              <option>Dr. Brânzei Speranta Maria</option>
               <option>Dr. Drugă Oana-Eufrosina</option>
               <option>Popescu Cornelia</option>
             </select>

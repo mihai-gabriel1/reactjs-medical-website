@@ -56,15 +56,6 @@ const OurTeam = () => {
           ]}
         />
         <TeamMember
-          imageSrc={branzei}
-          name="Dr. Brânzei Speranța Maria"
-          description={[
-            "MEDIC PRIMAR PNEUMOLOG",
-            "COMPETENȚĂ EXPLORĂRI FUNCTIONALE RESPIRATORII",
-            "COMPETENȚĂ BRONHOSCOPIE",
-          ]}
-        />
-        <TeamMember
           imageSrc={drdruga}
           className="druga"
           name="Dr. Drugă Oana-Eufrosina"
