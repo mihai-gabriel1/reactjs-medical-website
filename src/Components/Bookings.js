@@ -11,10 +11,10 @@ const Bookings = () => {
       data-aos-duration="1000"
     >
       <h2 className="announcement-title">Anunt important!</h2>
-      <p className="bookings-about">
+      <p className="announcement-subtitle">
         In perioada 27.12.2024 - 08.01.2025 suntem in concediu de odihnă! Puteti solicita o programare după datele mentionate mai sus.
       </p>
-      <p className="bookings-about">
+      <p className="announcement-msg">
          Va uram sarbatori binecuvantate, si numai bucurii.
       </p>
       <h2 className="section-title">Formular de programare online</h2>
