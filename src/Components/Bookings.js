@@ -15,7 +15,7 @@ const Bookings = () => {
         In perioada 27.12.2024 - 08.01.2025 suntem in concediu de odihnă! Puteti solicita o programare după datele mentionate mai sus.
       </p>
       <p className="announcement-msg">
-         Va uram sarbatori binecuvantate, si numai bucurii.
+         Va urăm sărbători binecuvântate, si numai bucurii.
       </p>
       <h2 className="section-title">Formular de programare online</h2>
       <p className="bookings-about">
